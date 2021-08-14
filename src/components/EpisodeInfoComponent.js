@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle, Breadcrumb, BreadcrumbItem, Button, Modal, ModalHeader, ModalBody, ModalFooter, Col, Row, Label } from 'reactstrap';
+import { Card, CardImg,  CardText, CardBody, } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import './EpisodeInfo.css';
 

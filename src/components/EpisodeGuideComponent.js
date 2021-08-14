@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Col, Card, Row, CardImg, CardImgOverlay, CardText, CardBody, Media, CardTitle } from 'reactstrap';
+import { Container, Col, Card, Row, CardText, Media } from 'reactstrap';
 import { EPISODES } from '../shared/Episodes';
 import { Link } from 'react-router-dom';
 import './EpisodeGuide.css';

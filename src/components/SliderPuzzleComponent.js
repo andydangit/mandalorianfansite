@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './SliderPuzzle.css';
-import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, Button, Modal, ModalHeader, ModalBody, Form, FormGroup, Input, Label } from 'reactstrap';
-import { NavLink } from 'react-router-dom';
+import { Button } from 'reactstrap';
+
 
 class SliderPuzzle extends Component {
   constructor(props) {

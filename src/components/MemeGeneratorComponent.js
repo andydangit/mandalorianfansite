@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle, Breadcrumb, BreadcrumbItem, Button, Modal, ModalHeader, ModalBody, ModalFooter, Col, Row, Label } from 'reactstrap';
+import { Button} from 'reactstrap';
 
 class MemeGenerator extends Component {
     constructor(){

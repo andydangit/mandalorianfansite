@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 import Home from './HomeComponent';
-import ImageGallery from './ImageGalleryComponent';
-import Countdown from './CountdownComponent';
 import Header from './HeaderComponent';
-import Navigation from './NavigationComponent';
-import Footer from './FooterComponent';
 import CharacterGuide from './CharacterGuideComponent';
 import EpisodeGuide from './EpisodeGuideComponent';
 import EpisodeInfo from './EpisodeInfoComponent';
 import SliderPuzzle from './SliderPuzzleComponent';
 import MemeGenerator from './MemeGeneratorComponent';
-import { Link, Switch, Route, Redirect, withRouter } from 'react-router-dom';
+import {  Switch, Route, Redirect } from 'react-router-dom';
 import { EPISODES } from '../shared/Episodes';
 
 class Main extends Component {
