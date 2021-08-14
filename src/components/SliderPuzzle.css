@@ -15,7 +15,7 @@
   width: 100px;
   height: 100px;
   border: 1px solid white;
-  background: url(/assets/images/slider-image-1-xs.jpg); 
+  background-image: url("../assets/images/slider-image-1-xs.jpg"); 
   cursor: pointer;
 }
 
@@ -24,7 +24,7 @@
     .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
       width: 125px;
       height: 125px;
-      background: url(/assets/images/slider-image-1-sm.jpg); 
+      background-image: url("../assets/images/slider-image-1-sm.jpg"); 
     }  
 }
 
@@ -33,7 +33,7 @@
     .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
       width: 200px;
       height: 200px;
-      background: url(/assets/images/slider-image-1-md.jpg); 
+      background-image: url("../assets/images/slider-image-1-md.jpg"); 
     }  
 }
 
@@ -42,7 +42,7 @@
     .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
       width: 250px;
       height: 250px;
-      background: url(/assets/images/slider-image-1-lg.jpg); 
+      background-image: url("../assets/images/slider-image-1-lg.jpg"); 
     }  
 }
 .tile1 {background-position: left top;}
