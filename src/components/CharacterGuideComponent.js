@@ -1,22 +1,24 @@
-import React, { Component, useState } from 'react';
-import { Container, Col, Row, CardImg, CardImgOverlay, 
-  CardText, CardBody, Media, CardTitle, CardSubtitle,
-  Popover, PopoverHeader, PopoverBody, Button, } from 'reactstrap';
-  import Fade from 'react-reveal/Bounce';
-import { Card, Image, Reveal } from 'semantic-ui-react'
+import React, { Component, } from 'react';
+import { Container, Col, Row, CardText, CardBody, Media, } from 'reactstrap';
+import Fade from 'react-reveal/Bounce';
+import { Card } from 'semantic-ui-react'
 import { CHARACTERS } from '../shared/Characters';
 import './CharacterGuides.css';
 
-const Hidden = () => (
-  <Reveal animated='move'>
-    <Reveal.Content visible>
-      <Image src='https://react.semantic-ui.com/images/wireframe/square-image.png' size='small' />
-    </Reveal.Content>
-    <Reveal.Content hidden>
-      <Image src='https://react.semantic-ui.com/images/avatar/large/chris.jpg' size='small' />
-    </Reveal.Content>
-  </Reveal>
-)
+
+// /////////////  Code did not get finish  in time
+// const Hidden = () => (
+//   <Reveal animated='move'>
+//     <Reveal.Content visible>
+//       <Image src='https://react.semantic-ui.com/images/wireframe/square-image.png' size='small' />
+//     </Reveal.Content>
+//     <Reveal.Content hidden>
+//       <Image src='https://react.semantic-ui.com/images/avatar/large/chris.jpg' size='small' />
+//     </Reveal.Content>
+//   </Reveal>
+// )
+
+
 
 function RenderCharacter({ch}) {
   return (
@@ -50,14 +52,10 @@ function RenderCharacter({ch}) {
             <br />
             <strong> Home World: </strong> {ch.home}
           </CardText>    
-         </CardBody>   
-
+        </CardBody>   
         </Media >
-       
     </Card>
-    
     </Col>
-    
   );
 }
 
@@ -81,7 +79,6 @@ class CharacterGuide extends Component {
             {characterList}
             </Row>
             </Container>
- 
         ); 
       }
   }
